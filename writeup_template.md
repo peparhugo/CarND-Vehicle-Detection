@@ -14,11 +14,11 @@ The goals / steps of this project are the following:
 [image2]: ./output_images/car_hog.jpg
 [image3]: ./output_images/extra1977.png
 [image4]: ./output_images/noncar_hog.jpg
-[image5]: ./output_images/search_windows1.jpg
+[image5]: ./output_images/search_window1.jpg
 [image6]: ./output_images/testimg_window1.jpg
 [image7]: ./output_images/testimg_window2.jpg
 [image8]: ./output_images/heat_window1.jpg
-[image9]: ./output_images/filtered_heat_window1.jpg
+[image9]: ./output_images/fitlered_heat_window1.jpg
 [image10]: ./output_images/testimg1.jpg
 [image11]: ./test_images/test1.jpg
 [video1]: ./deep_processed.mp4
@@ -84,7 +84,7 @@ I decided to go back and try building a Keras model (as previously mentioned). I
 ### Video Implementation
 
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
-Here's a [link to my video result](./deep_processed.mp4)
+Here's a [link to my video result](./deep_processed.mp4). It is called deep_processed.mp4 if the link does not work.
 
 
 ####2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
